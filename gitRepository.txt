@@ -30,3 +30,19 @@ Q. how to set username & email ?
 
 -> Use "git status" to see the status of "staging area".
 -> if you want to any spacific file to add use "git add 'FILE_NAME'" OR you want to add more then one file use "git add . ".
+-> Now files area added to "staging area" use "git status" one more time to check added files.
+-> so, files are added into "staging area". use "git commit -m 'text message'" to commit your changes.
+-> so, use "git log" to see the details about commit( who did which commit) and use "git log --oneline" to see the details in one line example: af93ae0 (HEAD -> master) adding sample-1.txt and sample-2.txt file
+
+
+how to create repo in github.
+  -> go to github -> Repositories -> New -> Give the valid name to repo. -> choose public OR private. -> create repository. Now you can see the repository that you created.
+
+how to clone the repo.
+  -> go to repo which you want to clone -> Code -> Copy the "HTTPS" link -> goto folder where you want clone open in gitbash tarminal use "git clone 'LINK'"
+  -> now we create file with help of github ui create the file "sample-3.txt" and write something init. file is create but now in you github repo there is 3 files but in you local machine have only 2 file, so we have 
+	use "git pull" commnd to get the changed files into local machine.
+other simple commands.
+ -> to create a file from bash terminal use "touch <FILE_NAME.TYPE>" .
+ -> to some file on bash terminal use "nano <FILE_NAME.TYPE>" .
+ -> if you want see text file in bash terminal use "cat <FILE_NAME.TYPE> .
